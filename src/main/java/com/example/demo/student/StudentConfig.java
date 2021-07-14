@@ -26,9 +26,33 @@ public class StudentConfig {
                             SEPTEMBER, 10)
 
             );
+            Student Mark = new Student(
+
+                    "Mark",
+                    "marklee2000@gmail.com",
+                    LocalDate.of(2000,
+                            AUGUST, 2)
+
+            );
+            Student Jeno = new Student(
+
+                    "Jeno",
+                    "leejeno23@gmail.com",
+                    LocalDate.of(2000,
+                            APRIL, 23)
+
+            );
+            Student William = new Student(
+
+                    "WilliamLin",
+                    "williamlin168@gmail.com",
+                    LocalDate.of(2000,
+                            JANUARY, 1) //random date :)
+
+            );
            
 
-            repository.saveAll(List.of(Sophie));
+            repository.saveAll(List.of(Sophie, Mark, Jeno, William));
 
         };
     }
