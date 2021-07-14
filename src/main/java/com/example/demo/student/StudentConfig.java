@@ -26,16 +26,9 @@ public class StudentConfig {
                             SEPTEMBER, 10)
 
             );
-            Student William = new Student(
+           
 
-                    "William",
-                    "williamlin168@gmail.com",
-                    LocalDate.of(2002,
-                            JANUARY, 1)
-
-            );
-
-            repository.saveAll(List.of(Sophie, William));
+            repository.saveAll(List.of(Sophie));
 
         };
     }
